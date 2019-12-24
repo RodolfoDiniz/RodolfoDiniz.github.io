@@ -29,7 +29,7 @@
     text-decoration: none;
 }
 .sm-clean a.disabled {
-    color: #bbbbbb;
+    color: #bf0b14;
 }
 .sm-clean a span.sub-arrow {
     position: absolute;
@@ -42,7 +42,7 @@
     overflow: hidden;
     font: bold 18px/34px monospace !important;
     text-align: center;
-    text-shadow: none;   
+    text-shadow: none;
     -webkit-border-radius: 5px;
     -moz-border-radius: 5px;
     -ms-border-radius: 5px;
@@ -88,14 +88,14 @@
 
 .main-menu
 {
-    float: none;    
+    float: none;
     max-width: 200px;
     width: 100%;
     position: relative;
     z-index: 9999;
 }
 
-.main-menu ul 
+.main-menu ul
 {
     width: 12em; /* fixed width only please - you can use the "subMenusMinWidth"/"subMenusMaxWidth" script options to override this if you like */
 }

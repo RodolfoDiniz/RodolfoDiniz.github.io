@@ -46,7 +46,7 @@ body {
 
 body.page-background {
     background-image: url("images/lines.png");
-    background-repeat: no-repeat;    
+    background-repeat: no-repeat;
     background-position: bottom right;
 }
 
@@ -96,7 +96,7 @@ body.open.done {
     width: 100px;
     height: 100px;
     position: absolute;
-    top: 50%;    
+    top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
 }
@@ -117,8 +117,8 @@ body.open.done {
     padding: 0 35px;
 }
 
-.open .site-content {    
-    transform: translateY(70px);    
+.open .site-content {
+    transform: translateY(70px);
 }
 
 h1.entry-title.page-title {
@@ -135,14 +135,14 @@ h1.entry-title.page-title {
     transition: .5s ease-in;
     -ms-transform: translate(0px,70px);
     -webkit-transform: translate(0px,70px);
-    transform: translate(0px,70px); 
+    transform: translate(0px,70px);
 }
 
 .animate.show-it {
     opacity: 1;
-    -ms-transform: translate(0px,0px); 
+    -ms-transform: translate(0px,0px);
     -webkit-transform: translate(0px,0px);
-    transform: translate(0px,0px);  
+    transform: translate(0px,0px);
 }
 
 .content-1170 {
@@ -174,7 +174,7 @@ h1.entry-title.page-title {
     color: #666;
 }
 
-.info-code-content, 
+.info-code-content,
 .info-code-content a {
     font-size: 15px;
 }
@@ -199,7 +199,7 @@ a.button {
 }
 
 a.button:hover {
-    opacity: 0.8; 
+    opacity: 0.8;
 }
 
 .page-featured-image {
@@ -242,7 +242,7 @@ a.button:hover {
 }
 
 .open .toggle-holder {
-    position: fixed;    
+    position: fixed;
 }
 
 .toggle-holder:after {
@@ -257,8 +257,8 @@ a.button:hover {
     transition: .3s;
 }
 
-.open .toggle-holder:after {    
-    height: 100%;    
+.open .toggle-holder:after {
+    height: 100%;
     transition-delay: .5s;
 }
 
@@ -271,7 +271,7 @@ a.button:hover {
     cursor: pointer;
 }
 
-#toggle:before, 
+#toggle:before,
 #toggle:after {
     content: '';
     height: 2px;
@@ -284,8 +284,8 @@ a.button:hover {
     top: 35px;
 }
 
-#toggle:before {    
-    transform: translate3d(0, -8px, 0px);    
+#toggle:before {
+    transform: translate3d(0, -8px, 0px);
 }
 
 #toggle.on:before {
@@ -306,7 +306,7 @@ a.button:hover {
     height: 4px;
 }
 
-#toggle:after { 
+#toggle:after {
     transform: translate3d(0, 8px, 0);
 }
 
@@ -351,7 +351,7 @@ a.button:hover {
 #header-main-menu {
     width: 40%;
     display: inline-block;
-    vertical-align: top;    
+    vertical-align: top;
 }
 
 span.menu-num {
@@ -379,16 +379,16 @@ span.menu-num {
     position: relative;
 }
 
-.sm-clean a, 
-.sm-clean a:hover, 
-.sm-clean a:focus, 
+.sm-clean a,
+.sm-clean a:hover,
+.sm-clean a:focus,
 .sm-clean a:active {
     font-family: 'Unna', serif;
     color: #fff;
     padding: 5px 0;
     font-size: 42px;
     line-height: 110%;
-    font-weight: 400;    
+    font-weight: 400;
 }
 
 .sm-clean > li > a:after {
@@ -404,14 +404,14 @@ span.menu-num {
     z-index: -1;
 }
 
-.sm-clean a.current:after, 
-.sm-clean a:hover:after, 
+.sm-clean a.current:after,
+.sm-clean a:hover:after,
 .sm-clean ul a:hover:after {
     width: 110%;
 }
 
 .sm-clean a.current {
-    color: #ff0000;    
+    color: #ff0000;
 }
 
 .sm-clean a span.sub-arrow {
@@ -436,7 +436,7 @@ span.menu-num {
 
 .sm-clean .sub-menu li a,
 .sm-clean .children li a {
-    color: #bbbbbb;
+    color: #bf0b14;
     text-transform: uppercase;
     font-size: 15px;
     line-height: 10px;
@@ -445,9 +445,9 @@ span.menu-num {
     font-weight: 400;
 }
 
-.sm-clean .sub-menu li a:hover, 
-.sm-clean .sub-menu li a.current, 
-.sm-clean .children li a:hover, 
+.sm-clean .sub-menu li a:hover,
+.sm-clean .sub-menu li a.current,
+.sm-clean .children li a:hover,
 .sm-clean .children li a.current {
     color: #fff;
 }
@@ -455,8 +455,8 @@ span.menu-num {
 .menu-holder-back {
     width: 100%;
     position: fixed;
-    background-color: #000;    
-    background-image: url("images/lines.png");  
+    background-color: #000;
+    background-image: url("images/lines.png");
     background-repeat: no-repeat;
     background-position: bottom right;
     height: 100%;
@@ -474,7 +474,7 @@ span.menu-num {
 .menu-holder-back.open {
     visibility: visible;
     opacity: 1;
-    transition-delay: 0s;    
+    transition-delay: 0s;
 
 }
 
@@ -508,9 +508,9 @@ span.menu-num {
     transition-delay: 0.3s;
 }
 
-.menu-text {    
+.menu-text {
     font-size: 16px;
-    line-height: 170%;    
+    line-height: 170%;
 }
 
 .menu-right-text .menu-text a:hover {
@@ -531,7 +531,7 @@ p.menu-text-title {
     vertical-align: top;
 }
 
-a.social-text {    
+a.social-text {
     margin-right: 35px;
     font-size: 10px;
     letter-spacing: 1px;
@@ -558,12 +558,12 @@ a.social-text {
     opacity: 1;
     transform: translateY(0px);
     padding: 0;
-    list-style: none;    
+    list-style: none;
 }
 
-.grid {    
+.grid {
     width: 100%;
-    margin: 0 auto;    
+    margin: 0 auto;
     overflow: hidden;
     position: relative;
     max-width: 100%;
@@ -594,7 +594,7 @@ a.social-text {
 .grid-item img {
     width: 100% !important;
     height: auto;
-    display: block;    
+    display: block;
 }
 
 .grid-item .entry-holder {
@@ -634,12 +634,12 @@ a.social-text {
     line-height: 120%;
     font-weight: 500;
     letter-spacing: 3px;
-    margin-bottom: 0;    
+    margin-bottom: 0;
     border: 1px solid;
     padding: 12px 25px;
 }
 
-.grid-item a.item-link:hover:after, 
+.grid-item a.item-link:hover:after,
 .grid-item a.item-link:hover .portfolio-text-holder {
     opacity: 1;
 }
@@ -734,7 +734,7 @@ li.timeline-event:hover .timeline-event-date {
 
 .simple-image-slider-pagination.swiper-pagination {
     left: 50%;
-    transform: translateX(-50%);    
+    transform: translateX(-50%);
     position: relative;
     margin-bottom: 50px;
     margin-top: 30px;
@@ -773,7 +773,7 @@ li.timeline-event:hover .timeline-event-date {
     text-align: center;
 }
 
-.blog-item-holder img {    
+.blog-item-holder img {
     margin-bottom: -50px;
 }
 
@@ -939,7 +939,7 @@ li.timeline-event:hover .timeline-event-date {
     margin-right: 0;
 }
 
-.tags-holder a:hover {   
+.tags-holder a:hover {
     color: #fff;
     border-color: #fff;
 }
@@ -953,8 +953,8 @@ li.timeline-event:hover .timeline-event-date {
     color: #808080;
 }
 
-.contact-form input[type=text], 
-.contact-form input[type=email], 
+.contact-form input[type=text],
+.contact-form input[type=email],
 .contact-form textarea {
     border: 0;
     border-bottom: 2px solid #333333;
@@ -1003,37 +1003,37 @@ li.timeline-event:hover .timeline-event-date {
     opacity: 0.8;
 }
 
-.contact-form input[type=text]::-webkit-input-placeholder, 
-.contact-form input[type=email]::-webkit-input-placeholder, 
+.contact-form input[type=text]::-webkit-input-placeholder,
+.contact-form input[type=email]::-webkit-input-placeholder,
 .contact-form textarea::-webkit-input-placeholder {
     font-family: 'Work Sans', sans-serif;
     color: #808080;
     font-weight: 400;
     font-size: 14px;
-    line-height: 25px;    
-    opacity: 1;  
+    line-height: 25px;
+    opacity: 1;
 }
 
-.contact-form input[type=text]:-ms-input-placeholder, 
-.contact-form input[type=email]:-ms-input-placeholder, 
+.contact-form input[type=text]:-ms-input-placeholder,
+.contact-form input[type=email]:-ms-input-placeholder,
 .contact-form textarea:-ms-input-placeholder {
     font-family: 'Work Sans', sans-serif;
     color: #808080;
     font-weight: 400;
     font-size: 14px;
-    line-height: 25px;    
-    opacity: 1;  
+    line-height: 25px;
+    opacity: 1;
 }
 
-.contact-form input[type=text]::placeholder, 
-.contact-form input[type=email]::placeholder, 
+.contact-form input[type=text]::placeholder,
+.contact-form input[type=email]::placeholder,
 .contact-form textarea::placeholder {
     font-family: 'Work Sans', sans-serif;
     color: #808080;
     font-weight: 400;
     font-size: 14px;
     line-height: 25px;
-    opacity: 1;    
+    opacity: 1;
 }
 
 
@@ -1088,14 +1088,14 @@ footer {
 
     .blog-item-holder .entry-info {
         max-width: 85%;
-    }      
+    }
 
     .single-post .post-info-wrapper {
         float: none;
         width: 100%;
         text-align: center;
         margin-bottom: 50px;
-    }    
+    }
 
     .single-post .post-info-wrapper .entry-info {
         position: relative !important;
@@ -1113,10 +1113,10 @@ footer {
 
 }
 
-@media screen and (max-width: 1020px) {   
+@media screen and (max-width: 1020px) {
 
     .site-content,
-    footer {        
+    footer {
         padding: 0;
         width: 100%;
         margin-left: auto;
@@ -1130,7 +1130,7 @@ footer {
     .footer-logo img {
         width: 70px;
         height: auto;
-    }    
+    }
 
     #toggle {
         padding: 0;
@@ -1158,7 +1158,7 @@ footer {
     .menu-wrapper-back {
         padding-top: 100px;
         padding-left: 10%;
-    }    
+    }
 
     .blog-item-holder .entry-holder {
         opacity: 1;
@@ -1169,10 +1169,10 @@ footer {
         display: block;
     }
 
-    .one_half, 
-    .one_third, 
-    .one_fourth, 
-    .two_third, 
+    .one_half,
+    .one_third,
+    .one_fourth,
+    .two_third,
     .three_fourth {
         width: 100% !important;
         float: none;
@@ -1195,7 +1195,7 @@ footer {
 
     .menu-wrapper-back {
         padding-left: 0;
-    }    
+    }
 
     body.page-background,
     .menu-holder-back {
@@ -1206,7 +1206,7 @@ footer {
         width: 90% !important;
         display: block;
         margin-left: 70px;
-    }   
+    }
 
     .menu-left-part {
         padding-top: 100px;
@@ -1229,13 +1229,13 @@ footer {
         margin-bottom: 40px;
     }
 
-    .grid-item, 
+    .grid-item,
     .grid-sizer {
         width: 100% !important;
         float: none;
         border: 0;
         margin-bottom: 20px;
-    }      
+    }
 
     .blog-item-holder h2.entry-title {
         max-width: 100%;
@@ -1246,12 +1246,12 @@ footer {
         display: none;
     }
 
-    .single-post h1.entry-title, 
-    .blog-item-holder h2.entry-title, 
+    .single-post h1.entry-title,
+    .blog-item-holder h2.entry-title,
     h1.entry-title.page-title {
         font-size: 34px;
         margin-bottom: 35px;
-    }   
+    }
 
     .page-featured-image {
         margin-bottom: 40px;
@@ -1271,15 +1271,15 @@ footer {
         margin-top: 40px;
     }
 
-    .single-post h1.entry-title, 
-    .blog-item-holder h2.entry-title, 
+    .single-post h1.entry-title,
+    .blog-item-holder h2.entry-title,
     h1.entry-title.page-title {
-        font-size: 27px;        
-    }  
+        font-size: 27px;
+    }
 
     .simple-image-slider-pagination.swiper-pagination {
         margin-bottom: 15px;
-    }    
+    }
 
     .single-post .post-info-wrapper .entry-info > div {
         display: block;
