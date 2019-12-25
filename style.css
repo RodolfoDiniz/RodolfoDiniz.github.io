@@ -594,6 +594,8 @@ a.social-text {
 .grid-item img {
     width: 100% !important;
     height: auto;
+    filter: grayscale(100%);
+    -webkit-filter: grayscale(100%);
     display: block;
 }
 
@@ -642,8 +644,12 @@ a.social-text {
 .grid-item a.item-link:hover:after,
 .grid-item a.item-link:hover .portfolio-text-holder {
     opacity: 1;
+    transition: all 1.3s ease;
 }
-
+.grid-item a.item-link:hover img {
+  -webkit-filter: none;
+  filter: none;
+}
 
 /* ===================================
     5. About CSS
