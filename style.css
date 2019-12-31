@@ -90,6 +90,7 @@ body.open.done {
     height: 100%;
     z-index: 99999;
     background-color: #000;
+    /* LOADER DA PAGINA */
 }
 
 .doc-loader img {
@@ -731,6 +732,12 @@ li.timeline-event:hover .timeline-event-date {
 .timeline-event-content {
     line-height: 160%;
     text-align: left;
+}
+
+.timeline-event-content-title {
+    line-height: 160%;
+    text-align: left;
+    font-size: 20px;
 }
 
 
