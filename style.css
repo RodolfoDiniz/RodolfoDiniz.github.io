@@ -57,6 +57,10 @@ body aa {
     transition: color .2s ease;
 }
 
+body aa:hover {
+    color: #acacac;
+}
+
 body a {
     text-decoration: none;
     color: #ffffff;
