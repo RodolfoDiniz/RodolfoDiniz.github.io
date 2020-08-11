@@ -50,9 +50,16 @@ body.page-background {
     background-position: bottom right;
 }
 
-body a {
+
+body aa {
     text-decoration: none;
     color: #bf0b14;
+    transition: color .2s ease;
+}
+
+body a {
+    text-decoration: none;
+    color: #ffffff;
     transition: color .2s ease;
 }
 
