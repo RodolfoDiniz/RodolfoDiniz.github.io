@@ -356,6 +356,10 @@ main {
     background-image: url("../img/social/icon_dribbble.svg");
 }
 
+.social-links ul li a.linkedin {
+    background-image: url("../img/social/icon_linkedin.svg");
+}
+
 .social-links ul li a.behance {
     background-image: url("../img/social/icon_behance.svg");
 }
