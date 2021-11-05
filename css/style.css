@@ -1774,7 +1774,7 @@ article.single .next-article a:hover {
     width: 64px;
     height: 64px;
     border-radius: 50%;
-    overflow: hidden;
+    /* overflow: hidden; */
     float: left;
     margin-right: 32px;
 }
@@ -1784,7 +1784,7 @@ article.single .next-article a:hover {
 }
 
 #article-comments .comment-block .content {
-    overflow: hidden;
+    /* overflow: hidden; */
 }
 
 #article-comments .comment-block .content .author-name {
